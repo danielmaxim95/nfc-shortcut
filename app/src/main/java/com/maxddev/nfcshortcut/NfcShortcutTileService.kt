@@ -45,6 +45,7 @@ class NfcShortcutTileService : TileService() {
         qsTile.updateTile()
     }
 
+    @Suppress("DEPRECATION")
     @SuppressLint("StartActivityAndCollapseDeprecated")
     override fun onClick() {
         super.onClick()
